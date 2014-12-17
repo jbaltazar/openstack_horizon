@@ -1,0 +1,18 @@
+#myform label.error {
+  color:#A94442;
+  font-size:11px;
+}
+
+#myform input.error {
+  border:1px solid #A94442;
+}
+
+.error_lbl {
+  color: #A94442;
+}
+
+#lbl_success {
+  text-align: center;
+  color: green;
+  font-weight:bold;
+}
