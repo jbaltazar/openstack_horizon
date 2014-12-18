@@ -4,15 +4,15 @@
  * SET YOUR DOMAIN NAME
  *--------------------------------------------------------------------------
 **/
-$apps_domain  = "http://developer.com:8888/";
 $api_domain   = "http://171.15.19.31";
+$apps_domain  = $api_domain.":9696/";
 $mysql_user   = "root";
 $mysql_pass   = "secrete";
 $mysql_dbname = "keystone";
 
-$openstack_uri = $api_domain.":9001/";
-$api_port 	   = "5000";
-$api_version   = "v3";
+$openstack_uri 	= $api_domain.":9001/";
+$api_port	= "5000";
+$api_version   	= "v3";
 
 $admin_usr_role = "jbaltazar";
 $admin_pwd_role = "password";
@@ -22,8 +22,8 @@ $admin_pwd_role = "password";
  * DONT TOUCH THE SETTINGS BELOW
  *--------------------------------------------------------------------------
 **/
-$url    	    = $apps_domain."openstack_horizon/";
-$url_api 		= $api_domain.":".$api_port."/".$api_version."/";
+$url		= $apps_domain."openstack_horizon/";
+$url_api	= $api_domain.":".$api_port."/".$api_version."/";
 $mysql_server 	= str_replace("http:", "", $api_domain);
 $mysql_server   = str_replace("/", "", $mysql_server);
 

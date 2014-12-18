@@ -225,7 +225,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'nUcloudst@ck';
+$config['encryption_key'] = 'j@d3d3v3l0p3r';
 
 /*
 |--------------------------------------------------------------------------
