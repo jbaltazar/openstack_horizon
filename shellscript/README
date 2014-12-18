@@ -1,0 +1,8 @@
+/*
+ * THIS IS FOR PHP INSTALLATION ALONG OPENSTACK HORIZON
+ * 
+ * Copy the shellscript directory and run "nucloud_php_openstack.sh" inside of Vagrant Box
+ *
+ * Ex: ./nucloud_php_openstack.sh
+ *
+ */
