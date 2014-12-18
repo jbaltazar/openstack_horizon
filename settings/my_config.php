@@ -14,8 +14,8 @@ $openstack_uri 	= $api_domain.":9001/";
 $api_port	= "5000";
 $api_version   	= "v3";
 
-$admin_usr_role = "jbaltazar";
-$admin_pwd_role = "password";
+$admin_usr_role = "admin";
+$admin_pwd_role = "secrete";
 
 /**
  *--------------------------------------------------------------------------
